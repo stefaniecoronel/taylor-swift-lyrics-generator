@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Taylor Swift Lyric generator</title>
+  <title>Taylor Swift Lyrics generator</title>
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -13,7 +13,23 @@
 </head>
 
 <body>
+  <header>
+    <h1> Taylor Swift Lyric Generator</h1>
+  </header>
+  
   <main>
+
+    <div class="container"> 
+      <div class="row" id="general-container">
+        <p>Hey fellow Swiftie, Taylor Swift enthusiast, or curious soul! We're glad to have you here! Click the button below to get a random Taylor lyric — and feel free to try it as many times as you like!</p>
+      <div class="col-md-4"> 
+        <button type="button" class="btn btn-primary" id="lyrics-generator">Get your lyrics!</button>
+      </div>
+      <div class="col-md-8"> 
+        <div id="lyrics-container"></div>
+      </div>
+      </div>
+   </div>
     
 
   </main>
@@ -23,7 +39,7 @@
   </footer>
 
   <script src="js/bootstrap.bundle.min.js"></script>
-  
+  <script src="js/functionality.js"></script>
 
 </body>
 
