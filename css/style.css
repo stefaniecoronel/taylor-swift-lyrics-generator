@@ -10,12 +10,10 @@ h1{
 
 header {
     display: flex;
+    text-align: center;
     align-items: center;
+    justify-content: center;
     background-color: black;
-    
-}
-#img-header{
-    max-width: 20%;
     
 }
 
@@ -23,8 +21,12 @@ header {
     margin-bottom: 2%;
 }
 
-header div:last-child{
-    flex-grow: 1;      
-    color: white;      
-    text-align: center;
+#lyrics-generator{
+    background-color: black;
+    color: white
 }
+
+img{
+    margin-top:5%;
+}
+
