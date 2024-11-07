@@ -4,36 +4,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Taylor Swift Lyrics generator</title>
+  <title>Taylor Swift Lyrics Generator</title>
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap">
   
 </head>
 
 <body>
   <header id="page-header">
-    
     <h1> Taylor Swift Lyric Generator</h1>
-
   </header>
   
   <main>
 
-    <div class="container"> 
+    <div class="container" class="d-flex align-items-center justify-content-center"> 
       <div class="row" id="general-container">
         <div id="intro">
           <p>Hey fellow Swiftie, Taylor Swift enthusiast, or curious soul! We're glad to have you here! Click the button below to get a random Taylor lyric — and feel free to try it as many times as you like!</p>
         </div>
-      <div class="col-md-4"> 
-        <button type="button" class="btn" id="lyrics-generator">Get your lyrics!</button>
+      <div class="col-md-4 text-center d-flex flex-column align-items-center"> 
+       
         <div id="img-div">
           <img src="img/taylor vmas.jpg" alt="Taylor" id="album-cover" class="img-fluid rounded" style="width: auto; height: 200px;">
         </div>
+        <button type="button" class="btn" id="lyrics-generator">Get your lyrics!</button>
         </div>
         
-      <div class="col-md-8"> 
+      <div class="col-md-8  d-flex justify-content-center align-items-center"> 
         <div id="lyrics-container"></div>
       </div>
       </div>

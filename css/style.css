@@ -4,8 +4,12 @@
 
 h1{
     text-align: center;
-    padding: 5%;
+    padding: 3%;
     color:white;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    
 }
 
 header {
@@ -18,15 +22,30 @@ header {
 }
 
 #intro{
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 #lyrics-generator{
     background-color: black;
-    color: white
+    color: white;
+    margin-top: 4%;
+    margin-bottom: 4%;
+   
 }
 
 img{
     margin-top:5%;
 }
 
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+p {
+    text-align: center;
+}
